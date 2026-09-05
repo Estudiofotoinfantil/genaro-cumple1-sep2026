@@ -948,7 +948,7 @@ function tickCountdown(){
   document.getElementById('cd-s').textContent = String(s).padStart(2,'0');
 }
 tickCountdown();
-const cdInterval = setInterval(tickCountdown, 1000);
+var cdInterval = setInterval(tickCountdown, 1000);
 
 /* ---------- Galería + Lightbox ---------- */
 const grid = document.getElementById('galeria-grid');
